@@ -49,8 +49,8 @@
 //     return mph * hours //end of function
 //     //console.log('Nothing works after a return')
 // }
-//
-// console.log(distance(65))
+
+// console.log(distance(66))
 
 
 
@@ -66,21 +66,21 @@
 
 
 
-// var movie = 'The Rock'
-// // var year = 1995
-//
-// if (movie ==='Forest Gump') {
-//     console.log('Life is like a box of chocolates.')
-// }
-// else if (movie === 'Groundhog Day') {
-//     console.log('Repeat')
-// }
-// else if (movie === 'Star Wars') {
-//     console.log('Luke, I am your father.')
-// }
-// else {
-//     console.log(movie + ' is awesome!')
-// }
+var movie = 'Forest Gump'
+// var year = 1995
+
+if (movie ==='Forest Gump') {
+    console.log('Life is like a box of chocolates.')
+}
+else if (movie === 'Groundhog Day') {
+    console.log('Repeat')
+}
+else if (movie === 'Star Wars') {
+    console.log('Luke, I am your father.')
+}
+else {
+    console.log(movie + ' is awesome!')
+}
 
 
 
@@ -101,17 +101,28 @@
 // }
 
 
+
+
 // console.log(6 % 3)
 
 // if (50 % 5 === 0) {
 //     console.log('Yes it is divisable by five.')
 // }
 
-// var list = ['Sally', 'Tom', 'Joel', 'Kyle', 'Troy', 'Manny', 'Sam', 'Whitney', 'Jeff', 'Brian', 'Young Mi', 'Keith', 'Charlie']
 
+
+
+// var list = ['Sally', 'Tom', 'Joel', 'Kyle', 'Troy', 'Manny', 'Sam', 'Whitney', 'Jeff', 'Brian', 'Young Mi', 'Keith', 'Charlie']
+//
 // for (var i = 0; i < list.length; i ++) {
 //     console.log(list[i])
 // }
+
+
+
+
+
+
 //
 // for (var i = 0; i < 100; i++) {
 //     console.log('<div id="Row' + i + '" class="row"><div class="col-sm-12"></div></div>')
