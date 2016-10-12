@@ -14,6 +14,14 @@ function subtract (x, y) {
 // console.log(subtract(6,3))
 //End Subtract Function//
 
+//Start Divide Function//
+function divide (x, y) {
+    var answer = x / y
+    return answer
+}
+// console.log(divide(6,3))
+//End Divide Function//
+
 //Start Multiple Function//
 function multiply (x, y) {
     var answer = x * y
@@ -22,13 +30,29 @@ function multiply (x, y) {
 // console.log(multiply(6,3))
 //End Multiple Function//
 
-//Start Divide Function//
-function divide (x, y) {
-    var answer = x / y
+//Start Modular Function//
+function modular (x, y) {
+    var answer = x % y
     return answer
 }
-// console.log(divide(6,3))
-//End Divide Function//
+// console.log(modular(47,1))
+//End Modular Function//
+
+//Start Increment Function//
+// function Increment (x, ++) {
+//     var answer = x++
+//     return answer
+// }
+// console.log(Increment(5))
+//End Increment Function//
+
+//Start Decrement Function//
+// function Decrement (x, x--) {
+//     var answer = x
+//     return answer
+// }
+// console.log(Decrement(47,1))
+//End Decrement Function//
 
 var answer
 answer = add(40, 110)
@@ -39,9 +63,11 @@ answer = divide(answer, 6)
 console.assert(answer === 23.5)
 answer = multiply(answer, 2)
 console.assert(answer === 47)
+answer = modular(answer, 1)
+console.assert(answer === 0)
 
 
-//Add Button Start//
+// Add Button Start//
 document.getElementById('addButton').addEventListener('click', function() {
     var firstValue = Number(document.getElementById('firstValue').value)
     var secondValue = Number(document.getElementById('secondValue').value)
@@ -51,7 +77,6 @@ document.getElementById('addButton').addEventListener('click', function() {
     document.getElementById('firstValue').value = answer
 })
 //Add Button End//
-
 
 //Subtract Button Start//
 document.getElementById('subtractButton').addEventListener('click', function() {
@@ -84,4 +109,15 @@ document.getElementById('divideButton').addEventListener('click', function() {
 
     document.getElementById('firstValue').value = answer
 })
-//Divide Button End//
+// Divide Button End//
+
+//Modular Button Start//
+document.getElementById('modularButton').addEventListener('click', function() {
+    var firstValue = Number(document.getElementById('firstValue').value)
+    var secondValue = Number(document.getElementById('secondValue').value)
+
+    var answer = modular(firstValue, secondValue)
+
+    document.getElementById('firstValue').value = answer
+})
+//Modular Button End//
